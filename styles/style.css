@@ -34,8 +34,8 @@
 
 .header__title {
   position: absolute;
+  left: 64px;
   width: 730px;
-  margin: 0px 0px 0px 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -58,7 +58,7 @@
   z-index: 3;
 }
 
-a:link {
+.header__link:link {
   text-decoration: none;
 }
 
@@ -213,6 +213,10 @@ a:link {
   color: #2f80ed;
 }
 
+.feynman__link:link {
+  text-decoration: none;
+}
+
 .feynman__image {
   position: absolute;
   width: 867px;
@@ -249,7 +253,6 @@ a:link {
   color: white;
   text-align: center;
   width: 60%;
-  margin-bottom: 80px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -293,6 +296,8 @@ a:link {
 }
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 40px;
   display: flex;
   position: relative;
   min-height: 350px;
@@ -349,6 +354,10 @@ a:link {
   font-size: 18px;
   font-weight: normal;
   padding: 0;
+}
+
+.footer__column-link:link {
+  text-decoration: none;
 }
 
 .footer__social-icons {
